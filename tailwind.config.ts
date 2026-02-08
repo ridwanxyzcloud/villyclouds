@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import typography from "@tailwindcss/typography";
 
 const config: Config = {
   content: [
@@ -11,7 +12,12 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ["var(--font-inter)", "ui-sans-serif", "system-ui"],
-        display: ["var(--font-sora)", "var(--font-inter)", "ui-sans-serif", "system-ui"],
+        display: [
+          "var(--font-sora)",
+          "var(--font-inter)",
+          "ui-sans-serif",
+          "system-ui",
+        ],
       },
       boxShadow: {
         soft: "0 10px 30px rgba(0,0,0,0.12)",
@@ -21,6 +27,7 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [typography],
 };
+
 export default config;
