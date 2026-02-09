@@ -18,3 +18,13 @@ jobs:
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             /usr/local/bin/deploy-villyclouds.sh
+
+      - name: Notify Slack on failure
+        if: failure()
+        run: |
+          payload=$(jq -n \
+            --arg repo "${{ github.repository }}" \
+            --arg run "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            --arg sha "${{ github.sha }}" \
+            '{text: ("🚨 Deploy failed: " + $repo + "\nCommit: " + $sha + "\nRun: " + $run)}')
+          curl -X POST -H 'Content-type: application/json' --data "$payload" "${{ secrets.SLACK_WEBHOOK_URL }}"
