@@ -1,0 +1,7 @@
+services:
+  villyclouds:
+    build: .
+    container_name: villyclouds
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
