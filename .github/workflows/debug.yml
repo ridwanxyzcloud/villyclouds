@@ -1,0 +1,9 @@
+name: Debug Actions
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub Actions triggered successfully"
