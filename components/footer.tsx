@@ -8,7 +8,7 @@ export function Footer() {
         <div>
           <div className="font-display text-lg">VillyClouds</div>
           <p className="mt-1 text-sm text-white/60">
-            Data • AI • Software • Innovation — built with clarity and craftsmanship.
+            Data • AI • Software • Innovation: built with clarity and craftsmanship.
           </p>
         </div>
 

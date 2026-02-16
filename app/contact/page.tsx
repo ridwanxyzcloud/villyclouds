@@ -10,7 +10,7 @@ export default async function ContactPage() {
   return (
     <ContentShell
       title="Let’s connect"
-      subtitle="Tell us what you’re building — we’ll respond quickly with next steps."
+      subtitle="Tell us what you’re building, we’ll respond quickly with next steps."
     >
       <div className="grid gap-6 md:grid-cols-2 md:items-start">
         <Card className="p-8">

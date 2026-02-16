@@ -6,10 +6,10 @@ import { ArrowRight, Blocks, Brain, Database, LineChart, ShieldCheck, Sparkles }
 
 const services = [
   { icon: Database, title: "Data Engineering (DEaaS)", desc: "Modern pipelines, lakehouse-ready modelling, orchestration, CI/CD, and performance you can trust." },
-  { icon: ShieldCheck, title: "Data Management (DMaaS)", desc: "Governance, quality, lineage, and secure access — so your data becomes an asset, not a risk." },
+  { icon: ShieldCheck, title: "Data Management (DMaaS)", desc: "Governance, quality, lineage, and secure access; so your data becomes an asset, not a risk." },
   { icon: LineChart, title: "Analytics & BI", desc: "Decision-grade dashboards and metrics layers that align teams to the same truth." },
-  { icon: Brain, title: "AI & ML Integration", desc: "Use cases that ship: forecasting, automation, NLP, and copilots — with the right guardrails." },
-  { icon: Blocks, title: "Custom Software", desc: "Internal tools, portals, APIs, and platforms — designed for speed, reliability, and polish." },
+  { icon: Brain, title: "AI & ML Integration", desc: "Use cases that ship: forecasting, automation, NLP, and copilots; with the right guardrails." },
+  { icon: Blocks, title: "Custom Software", desc: "Internal tools, portals, APIs, and platforms: designed for speed, reliability, and polish." },
   { icon: Sparkles, title: "Automation", desc: "Streamline operations with low-code + code: Power Automate, integrations, and event-driven workflows." },
 ];
 
@@ -47,11 +47,11 @@ export default function Home() {
             </Card>
             <Card>
               <div className="text-sm font-semibold">Built with governance</div>
-              <p className="mt-2 text-sm text-white/70">Quality, security, and clarity baked in — not bolted on at the end.</p>
+              <p className="mt-2 text-sm text-white/70">Quality, security, and clarity baked in, not bolted on at the end.</p>
             </Card>
             <Card>
               <div className="text-sm font-semibold">Shipped with polish</div>
-              <p className="mt-2 text-sm text-white/70">Premium UX and robust engineering — so teams actually enjoy using it.</p>
+              <p className="mt-2 text-sm text-white/70">Premium UX and robust engineering, so teams actually enjoy using it.</p>
             </Card>
           </div>
 
@@ -109,7 +109,7 @@ export default function Home() {
         <Container className="grid gap-10 md:grid-cols-2 md:items-center">
           <div>
             <h2 className="font-display text-3xl tracking-tight md:text-4xl">
-              Built for teams that want clarity — not complexity.
+              Built for teams that want clarity, not complexity.
             </h2>
             <p className="mt-4 text-white/70">
               At Villy Clouds, we help businesses unlock the power of their data and technology with solutions designed for

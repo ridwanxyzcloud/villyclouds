@@ -13,7 +13,7 @@ Villy Clouds
  is here to turn your vision into reality.
 
 💡 
-Let’s innovate, engineer, and scale—together.
+Let’s innovate, engineer, and scale together.
 
 📩 
 Get in touch today!
