@@ -27,7 +27,7 @@ export default function Home() {
             Data • AI • Software • Innovation
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-white/75 md:text-xl">
-            One unified solution: we deliver cutting-edge <span className="text-white">data & software</span> that drives business success —
+            One unified solution: we deliver cutting-edge <span className="text-white">data & software</span> that drives business success,
             from scalable pipelines to AI-powered applications.
           </p>
 
